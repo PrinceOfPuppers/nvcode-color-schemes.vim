@@ -1,17 +1,8 @@
 # NVCode Colorscheme
 
-![React pic](./assets/react.png)
-
 **Included Themes**
 
-- nvcode (basically just dark+)
-- onedark
-- [nord](./assets/nord.png)
-- aurora (more colorful nord)
-- gruvbox
-- palenight
-- snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
-- [xoria](./assets/xoria.png) (Based on [xoria-256](https://github.com/vim-scripts/xoria256.vim))
+- monokai (based on vscode monokai)
 
 ### Credit
 
