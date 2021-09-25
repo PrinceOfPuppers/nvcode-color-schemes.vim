@@ -1,0 +1,199 @@
+information:
+  name: monokai
+  background: dark
+  author: "Joshua McPherson <joshuamcpherson5@gmail.com>"
+
+palette:
+  select: "#575b61"
+  fg: "#f8f8f2"
+  bg: "#272822"
+
+  gray_1: "#2d2e27"
+  gray_2: "#32342d"
+  gray_3: "#414339"
+  gray_comment: "#88846F"
+  gray_darker_comment: "#75715E"
+  gray_darker_comment_cold: "#5a5a5a"
+  gray_dark: "#272822"
+  black: "#1e1f1c"
+
+  purple: "#AE81FF"
+  red: "#be1100"
+  red_comment: "#90274a"
+  yellow_comment: "#cca700"
+  pink: "#F92672"
+  aqua: "#66D9EF"
+  green: "#A6E22E"
+  yellow: "#E6DB74"
+  orange: "#FD971F"
+
+highlights:
+
+  # Editor
+  ColorColumn: "- gray_2"
+  Cursor: "bg fg"
+  CursorLine: "yellow gray_2"
+  Error: "fg red"
+  LineNr: "gray_comment gray_1"
+  MatchParen: "purple"
+  NonText: "gray_3"
+  Normal: "fg bg"
+  Pmenu: "fg gray_2"
+  PmenuSbar: "- gray_1"
+  PmenuSel: "- gray_darker_comment"
+  PmenuThumb: "- gray_darker_comment_cold"
+  SpecialKey: "gray_3"
+  SpellBad: "red bg u"
+  SpellCap: "red bg u"
+  SpellLocal: "fg select u"
+  SpellRare: "fg - b"
+  Visual: "- select"
+  VisualNOS: "- select"
+  QuickFixLine: "bg yellow"
+  Terminal: "fg bg"
+
+  # Neovim checkhealth
+  healthError: "red bg"
+  healthSuccess: "green bg"
+  healthWarning: "orange bg"
+
+  # Gutter
+  CursorColumn: "#FF00FF #FF00FF"
+  CursorLineNr: "orange gray_1"
+  Folded: "#FF00FF bg"
+  FoldColumn: "#FF00FF bg"
+  SignColumn: "#FF00FF bg"
+
+  # Navigation
+  Directory: "aqua"
+
+  # Prompt/Status
+  EndOfBuffer: "bg"
+  ErrorMsg: "red"
+  ModeMsg: "yellow"
+  MoreMsg: "aqua"
+  Question: "fg"
+  StatusLine: "fg gray_3"
+  StatusLineNC: "fg black"
+  StatusLineTerm: "#FF00FF #FF00FF"
+  StatusLineTermNC: "fg #FF00FF"
+  WarningMsg: "orange"
+  WildMenu: "#FF00FF #FF00FF"
+
+  # Search (using high contrast search)
+  IncSearch: "- select"
+  Search: "- select"
+
+  # Tabs
+  TabLine: "fg bg"
+  TabLineFill: "fg bg"
+  TabLineSel: "fg gray_3"
+
+  # Window
+  Title: "fg"
+  VertSplit: "#FF00FF bg"
+
+  # Language Base Groups
+  Boolean: "purple"
+  Character: "purple"
+  Comment: "gray_comment"
+  Conditional: "pink"
+  Constant: "green" #? or pink
+  Define: "pink"
+  Delimeter: "fg"
+  Exception: "pink"
+  Float: "purple"
+  Function: "green"
+  Identifier: "fg"
+  Include: "pink"
+  Keyword: "pink"
+  Label: "#FF00FF"
+  Number: "purple"
+  Operator: "pink"
+  PreProc: "pink"
+  Repeat: "pink"
+  Special: "purple"
+  SpecialChar: "purple"
+  SpecialComment: "orange"
+  Statement: "pink"
+  StorageClass: "pink"
+  String: "yellow"
+  Structure: "aqua"
+  Tag: "fg"
+  Todo: "orange"
+  Type: "aqua"
+  Typedef: "aqua"
+  Macro: "green"
+  PreCondit: "pink"
+
+
+  # -- Start Treesitter --
+  # Misc
+  TSError: "red"
+  TSPunctDelimiter: "fg"
+  TSPunctBracket: "fg"
+  TSPunctSpecial: "fg"
+  # Constants
+  TSConstant: "purple"
+  TSConstBuiltin: "purple"
+  TSConstMacro: "purple"
+  TSStringRegex: "purple"
+  TSString: "yellow"
+  TSStringEscape: "purple"
+  TSCharacter: "purple"
+  TSNumber: "purple"
+  TSBoolean: "purple"
+  TSFloat: "purple"
+  TSAnnotation: "#FF00FF"
+  TSAttribute: "green"
+  TSNamespace: "fg"
+  # Functions
+  TSFuncBuiltin: "green"
+  TSFunction: "green"
+  TSFuncMacro: "green"
+  TSParameter: "orange"
+  TSParameterReference: "orange"
+  TSMethod: "green"
+  TSField: "fg"
+  TSProperty: "fg"
+  TSConstructor: "aqua"
+  # Keywords
+  TSConditional: "pink"
+  TSRepeat: "pink"
+  TSLabel: "#FF00FF"
+  TSKeyword: "pink"
+  TSKeywordFunction: "pink"
+  TSKeywordOperator: "pink"
+  TSOperator: "pink"
+  TSException: "pink"
+  TSType: "aqua"
+  TSTypeBuiltin: "aqua"
+  TSStructure: "#FF00FF"
+  TSInclude: "pink"
+  # Variable
+  TSVariable: "fg"
+  TSVariableBuiltin: "purple"
+  # Text
+  TSText: "gray_comment"
+  TSStrong: "gray_comment"
+  TSEmphasis: "gray_comment"
+  TSUnderline: "gray_comment"
+  TSTitle: "gray_comment - b"
+  TSLiteral: "gray_comment - i"
+  TSURI: "purple - u"
+  # Tags
+  TSTag: "#FF00FF"
+  TSTagDelimiter: "#FF00FF"
+  # -- END Treesitter --
+
+  # -- START Languages --
+
+  # Nvim LSP
+  LSPDiagnosticsWarning: "yellow_comment"
+  LspDiagnosticsDefaultError: "red_comment"
+  LspDiagnosticsInformation: "gray_comment"
+  LspDiagnosticsHint: "gray_comment"
+  LspDiagnosticsUnderlineWarning: "- - u"
+  LspDiagnosticsUnderlineError: "- - u"
+  LspDiagnosticsUnderlineInformation: "- - u"
+  LspDiagnosticsUnderlineHint: "- - u"
