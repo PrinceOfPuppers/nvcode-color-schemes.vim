@@ -22,10 +22,10 @@ hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=N
 hi SpecialKey guifg=#414339 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#be1100 ctermfg=124 guibg=#272822 ctermbg=235 gui=underline cterm=underline
 hi SpellCap guifg=#be1100 ctermfg=124 guibg=#272822 ctermbg=235 gui=underline cterm=underline
-hi SpellLocal guifg=#f8f8f2 ctermfg=255 guibg=#575b61 ctermbg=59 gui=underline cterm=underline
+hi SpellLocal guifg=#f8f8f2 ctermfg=255 guibg=#5a5a5a ctermbg=240 gui=underline cterm=underline
 hi SpellRare guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Visual guifg=NONE ctermfg=NONE guibg=#575b61 ctermbg=59 gui=NONE cterm=NONE
-hi VisualNOS guifg=NONE ctermfg=NONE guibg=#575b61 ctermbg=59 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
+hi VisualNOS guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
 hi QuickFixLine guifg=#272822 ctermfg=235 guibg=#e6db74 ctermbg=186 gui=NONE cterm=NONE
 hi Terminal guifg=#f8f8f2 ctermfg=255 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi healthError guifg=#be1100 ctermfg=124 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
@@ -33,7 +33,7 @@ hi healthSuccess guifg=#a6e22e ctermfg=148 guibg=#272822 ctermbg=235 gui=NONE ct
 hi healthWarning guifg=#fd971f ctermfg=208 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi CursorColumn guifg=#ff00ff ctermfg=201 guibg=#ff00ff ctermbg=201 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#fd971f ctermfg=208 guibg=#2d2e27 ctermbg=236 gui=NONE cterm=NONE
-hi Folded guifg=#ff00ff ctermfg=201 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi Folded guifg=#5a5a5a ctermfg=240 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi FoldColumn guifg=#ff00ff ctermfg=201 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi SignColumn guifg=#ff00ff ctermfg=201 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#66d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -48,8 +48,8 @@ hi StatusLineTerm guifg=#ff00ff ctermfg=201 guibg=#ff00ff ctermbg=201 gui=NONE c
 hi StatusLineTermNC guifg=#f8f8f2 ctermfg=255 guibg=#ff00ff ctermbg=201 gui=NONE cterm=NONE
 hi WarningMsg guifg=#fd971f ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#ff00ff ctermfg=201 guibg=#ff00ff ctermbg=201 gui=NONE cterm=NONE
-hi IncSearch guifg=NONE ctermfg=NONE guibg=#575b61 ctermbg=59 gui=NONE cterm=NONE
-hi Search guifg=NONE ctermfg=NONE guibg=#575b61 ctermbg=59 gui=NONE cterm=NONE
+hi IncSearch guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
+hi Search guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
 hi TabLine guifg=#f8f8f2 ctermfg=255 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi TabLineFill guifg=#f8f8f2 ctermfg=255 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi TabLineSel guifg=#f8f8f2 ctermfg=255 guibg=#414339 ctermbg=238 gui=NONE cterm=NONE

@@ -4,7 +4,7 @@ information:
   author: "Joshua McPherson <joshuamcpherson5@gmail.com>"
 
 palette:
-  select: "#575b61"
+  select: "#5a5a5a" #"#575b61"
   fg: "#f8f8f2"
   bg: "#272822"
 
@@ -60,7 +60,7 @@ highlights:
   # Gutter
   CursorColumn: "#FF00FF #FF00FF"
   CursorLineNr: "orange gray_1"
-  Folded: "#FF00FF bg"
+  Folded: "select bg"
   FoldColumn: "#FF00FF bg"
   SignColumn: "#FF00FF bg"
 
