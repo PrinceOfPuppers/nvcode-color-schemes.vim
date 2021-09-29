@@ -27,6 +27,10 @@ palette:
   yellow: "#E6DB74"
   orange: "#FD971F"
 
+  green_diff: "#587c0c"
+  red_diff:   "#94151b"
+  blue_diff:  "#0c7d9d"
+
 highlights:
 
   # Editor
@@ -52,6 +56,13 @@ highlights:
   QuickFixLine: "bg yellow"
   Terminal: "fg bg"
 
+
+  #diff
+  DiffChange: "fg blue_diff"
+  DiffAdd: "fg green_diff"
+  DiffDelete: "fg red_diff"
+  DiffText: "fg select"
+
   # Neovim checkhealth
   healthError: "red bg"
   healthSuccess: "green bg"
@@ -61,8 +72,8 @@ highlights:
   CursorColumn: "#FF00FF #FF00FF"
   CursorLineNr: "orange gray_1"
   Folded: "select bg"
-  FoldColumn: "#FF00FF bg"
-  SignColumn: "#FF00FF bg"
+  FoldColumn: "gray_comment bg"
+  SignColumn: "gray_comment bg"
 
   # Navigation
   Directory: "aqua"
@@ -91,7 +102,7 @@ highlights:
 
   # Window
   Title: "fg"
-  VertSplit: "#FF00FF bg"
+  VertSplit: "black bg"
 
   # Language Base Groups
   Boolean: "purple"
