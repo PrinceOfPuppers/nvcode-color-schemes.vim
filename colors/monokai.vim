@@ -72,7 +72,7 @@ hi Function guifg=#a6e22e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Identifier guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Label guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Label guifg=#a6e22e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -118,7 +118,7 @@ hi TSProperty guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi TSConstructor guifg=#66d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSRepeat guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSLabel guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSLabel guifg=#66d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordFunction guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordOperator guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -140,9 +140,12 @@ hi TSURI guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=underline cterm=u
 hi TSTag guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LSPDiagnosticsWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LSPDiagnosticsDefaultWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LspDiagnosticsUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LspDiagnosticsUnderlineInformation guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
