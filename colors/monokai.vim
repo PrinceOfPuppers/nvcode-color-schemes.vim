@@ -139,14 +139,15 @@ hi TSLiteral guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=
 hi TSURI guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSTag guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LSPDiagnosticsWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LSPDiagnosticsDefaultWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi LspDiagnosticsUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi LspDiagnosticsUnderlineInformation guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi LspDiagnosticsUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi DiagnosticWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticUnderlineWarn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
+hi DiagnosticError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
+hi DiagnosticInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticUnderlineInfo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
+hi DiagnosticHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE

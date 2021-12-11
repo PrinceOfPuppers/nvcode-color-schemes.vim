@@ -200,19 +200,18 @@ highlights:
   # -- START Languages --
 
   # Nvim LSP
-  LSPDiagnosticsWarning: "yellow_comment"
-  LSPDiagnosticsDefaultWarning: "yellow_comment"
+  DiagnosticWarning: "yellow_comment"
+  DiagnosticDefaultWarning: "yellow_comment"
+  DiagnosticUnderlineWarn: "- - u -"
 
-  LspDiagnosticsError: "red_comment"
-  LspDiagnosticsDefaultError: "red_comment"
+  DiagnosticError: "red_comment"
+  DiagnosticDefaultError: "red_comment"
+  DiagnosticUnderlineError: "- - u -"
 
-  LspDiagnosticsInformation: "gray_comment"
-  LspDiagnosticsDefaultInformation: "gray_comment"
+  DiagnosticInformation: "gray_comment"
+  DiagnosticDefaultInformation: "gray_comment"
+  DiagnosticUnderlineInfo: "- - u -"
 
-  LspDiagnosticsHint: "gray_comment"
-  LspDiagnosticsDefaultHint: "gray_comment"
-
-  LspDiagnosticsUnderlineWarning: "- - u"
-  LspDiagnosticsUnderlineError: "- - u"
-  LspDiagnosticsUnderlineInformation: "- - u"
-  LspDiagnosticsUnderlineHint: "- - u"
+  DiagnosticHint: "gray_comment"
+  DiagnosticDefaultHint: "gray_comment"
+  DiagnosticUnderlineHint: "- - u -"
