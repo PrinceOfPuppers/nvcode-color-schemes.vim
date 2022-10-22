@@ -1,5 +1,5 @@
 information:
-  name: monokai
+  name: asdf
   background: dark
   author: "Joshua McPherson <joshuamcpherson5@gmail.com>"
 
@@ -202,16 +202,24 @@ highlights:
   # Nvim LSP
   DiagnosticWarning: "yellow_comment"
   DiagnosticDefaultWarning: "yellow_comment"
+  DiagnosticSignWarning: "yellow_comment"
+  DiagnosticVirtualWarning: "yellow_comment"
   DiagnosticUnderlineWarn: "- - u -"
 
   DiagnosticError: "red_comment"
   DiagnosticDefaultError: "red_comment"
+  DiagnosticSignError: "red_comment"
+  DiagnosticVirtualError: "red_comment"
   DiagnosticUnderlineError: "- - u -"
 
   DiagnosticInformation: "gray_comment"
   DiagnosticDefaultInformation: "gray_comment"
+  DiagnosticSignInformation: "gray_comment"
+  DiagnosticVirtualTextInfo: "gray_comment"
   DiagnosticUnderlineInfo: "- - u -"
 
   DiagnosticHint: "gray_comment"
   DiagnosticDefaultHint: "gray_comment"
+  DiagnosticSignHint: "gray_comment"
+  DiagnosticVirtualHint: "gray_comment"
   DiagnosticUnderlineHint: "- - u -"

@@ -5,7 +5,7 @@ hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name='monokai'
+let g:colors_name='asdf'
 
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#32342d ctermbg=236 gui=NONE cterm=NONE
 hi Cursor guifg=#272822 ctermfg=235 guibg=#f8f8f2 ctermbg=255 gui=NONE cterm=NONE
@@ -141,9 +141,13 @@ hi TSTag guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticDefaultWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticUnderlineWarn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
 hi DiagnosticError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticDefaultError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualError guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
 hi DiagnosticInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticDefaultInformation guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -152,4 +156,6 @@ hi DiagnosticVirtualTextInfo guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE g
 hi DiagnosticUnderlineInfo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
 hi DiagnosticHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticDefaultHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualHint guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE
