@@ -95,9 +95,11 @@ hi @constructor guifg=#66d9ef ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi @constant.builtin guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @function.builtin guifg=#a6e22e ctermfg=148 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @variable.builtin guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @variable guifg=#f8f8f2 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @parameter guifg=#fd971f ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @string.escape guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @string.regex guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @punctuation.special guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text.strong guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @text.emphasis guifg=#88846f ctermfg=101 guibg=NONE ctermbg=NONE gui=italic cterm=italic
