@@ -42,6 +42,7 @@ highlights:
   MatchParen: "purple"
   NonText: "gray_3"
   Normal: "fg bg"
+  NormalFloat: "fg black"
   Pmenu: "fg gray_2"
   PmenuSbar: "- gray_1"
   PmenuSel: "- gray_darker_comment"
@@ -94,6 +95,7 @@ highlights:
   # Search (using high contrast search)
   IncSearch: "- select"
   Search: "- select"
+  CurSearch: "- select"
 
   # Tabs
   TabLine: "fg bg"
@@ -161,6 +163,8 @@ highlights:
 
   "@error": "red"
 
+  # for python dataclass
+  "@attribute": "pink"
 
 
   # Nvim LSP
@@ -187,3 +191,5 @@ highlights:
   DiagnosticSignHint: "gray_comment"
   DiagnosticVirtualHint: "gray_comment"
   DiagnosticUnderlineHint: "- - u -"
+
+

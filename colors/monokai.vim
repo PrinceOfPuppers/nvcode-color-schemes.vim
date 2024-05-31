@@ -15,6 +15,7 @@ hi LineNr guifg=#88846f ctermfg=101 guibg=#2d2e27 ctermbg=236 gui=NONE cterm=NON
 hi MatchParen guifg=#ae81ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#414339 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#f8f8f2 ctermfg=255 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
+hi NormalFloat guifg=#f8f8f2 ctermfg=255 guibg=#1e1f1c ctermbg=234 gui=NONE cterm=NONE
 hi Pmenu guifg=#f8f8f2 ctermfg=255 guibg=#32342d ctermbg=236 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#2d2e27 ctermbg=236 gui=NONE cterm=NONE
 hi PmenuSel guifg=NONE ctermfg=NONE guibg=#75715e ctermbg=242 gui=NONE cterm=NONE
@@ -54,6 +55,7 @@ hi WarningMsg guifg=#fd971f ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi WildMenu guifg=#ff00ff ctermfg=201 guibg=#ff00ff ctermbg=201 gui=NONE cterm=NONE
 hi IncSearch guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
+hi CurSearch guifg=NONE ctermfg=NONE guibg=#5a5a5a ctermbg=240 gui=NONE cterm=NONE
 hi TabLine guifg=#f8f8f2 ctermfg=255 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi TabLineFill guifg=#f8f8f2 ctermfg=255 guibg=#272822 ctermbg=235 gui=NONE cterm=NONE
 hi TabLineSel guifg=#f8f8f2 ctermfg=255 guibg=#414339 ctermbg=238 gui=NONE cterm=NONE
@@ -113,6 +115,7 @@ hi todo guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=underline cterm=un
 hi @text.warning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi @text.danger guifg=#90274a ctermfg=89 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi @error guifg=#be1100 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @attribute guifg=#f92672 ctermfg=197 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticDefaultWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticSignWarning guifg=#cca700 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
